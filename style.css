@@ -1,0 +1,73 @@
+body{
+    background-image: url('./img/momos-4935232.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1200px;
+}
+
+
+header{
+    height: 300px;
+   
+}
+
+header h1{
+    letter-spacing: 2rem;
+    color: aliceblue;
+    text-align: center;
+    font-size: 70px;
+
+}
+
+header h1 span{
+    color: tomato;
+}
+
+#card-item{
+    background-color: rgba(26, 109, 65, 0.24);
+}
+
+#card-item ul{
+    list-style-type: decimal;
+
+}
+
+.card-body{
+    padding: 40px;
+
+}
+
+.card-body p{
+    color: black;
+}
+
+.clicked-item{
+    color: antiquewhite;
+    list-style-type: none;
+    width: 700px;
+    margin-left: 400px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+
+}
+
+
+#items-section img{
+    border: none;
+    overflow: hidden;
+    transition: 0.4s;
+}
+
+#items-section img:hover{
+    transform: scale(1.03);
+    overflow: hidden;
+    cursor: pointer;
+    
+
+}
+
+.searchBar{
+    width: 50%;
+}
